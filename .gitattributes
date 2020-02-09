@@ -1,0 +1,4 @@
+/dotfiles/.local/bin/lpass-setup-ssh-agent.sh    filter=git-crypt diff=git-crypt
+/dotfiles/.restic_env                            filter=git-crypt diff=git-crypt
+/dotfiles/.ssh/*                                 filter=git-crypt diff=git-crypt
+/prefix-files/etc/tor/*                          filter=git-crypt diff=git-crypt
